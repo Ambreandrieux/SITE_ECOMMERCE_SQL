@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+}
+
+.produits {
+	width: 85%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.produit {
+	margin: 10px;
+	padding: 10px;
+	background-color: #f5f5f5;
+	width: calc((100% / 3) - 40px);
+}
+
+.marg-top-20 {
+	margin-top: 20px;
+}
+
+.marg-bot-20 {
+	margin-bottom: 20px;
+}
